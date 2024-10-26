@@ -9,18 +9,18 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpeg";
+import Work1 from "./assets/uploads/project-1.jpeg";
 
-import Theme1 from "./assets/purple.png";
-import Theme2 from "./assets/red.png";
-import Theme3 from "./assets/blueviolet.png";
-import Theme4 from "./assets/blue.png";
-import Theme5 from "./assets/goldenrod.png";
-import Theme6 from "./assets/magenta.png";
-import Theme7 from "./assets/yellowgreen.png";
-import Theme8 from "./assets/orange.png";
-import Theme9 from "./assets/green.png";
-import Theme10 from "./assets/yellow.png";
+import Theme1 from "./assets/uploads/purple.png";
+import Theme2 from "./assets/uploads/red.png";
+import Theme3 from "./assets/uploads/blueviolet.png";
+import Theme4 from "./assets/uploads/blue.png";
+import Theme5 from "./assets/uploads/goldenrod.png";
+import Theme6 from "./assets/uploads/magenta.png";
+import Theme7 from "./assets/uploads/yellowgreen.png";
+import Theme8 from "./assets/uploads/orange.png";
+import Theme9 from "./assets/uploads/green.png";
+import Theme10 from "./assets/uploads/yellow.png";
 
 export const links = [
   {

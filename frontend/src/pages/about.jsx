@@ -1,10 +1,11 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
-import Info from "../../components/info";
-import Stats from "../../components/stats";
-import CV from "../../assets/cv.pdf";
-import "./about.css";
-import Skills from "../../components/skills";
+import Info from "../components/info";
+import Stats from "../components/stats";
+import Skills from "../components/skills";
+import "../assets/css/about.css";
+
+import CV from "../assets/uploads/cv.pdf";
 
 const About = () => {
   return (

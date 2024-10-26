@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import "./home.css";
+import "../assets/css/home.css";
 
-import Profile from "../../assets/home.jpg";
+import Profile from "../assets/uploads/profile-pic.jpg";
 
 const Home = () => {
   return (
