@@ -97,7 +97,7 @@ export const personalInfo = [
   {
     id: 8,
     title: "Email : ",
-    description: "you@mail.com",
+    description: "hkmnoon787@gmail.com",
   },
 
   {
@@ -211,146 +211,6 @@ export const skills = [
 
 export const portfolio = [
   {
-    id: 6,
-    img: Work1,
-    title: "Website Design",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "BVADI",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-        link: "http://localhost:3000/",
-      },
-    ],
-  },
-  {
-    id: 5,
-    img: Work1,
-    title: "Website Design",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "BVADI",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-        link: "http://localhost:3000/",
-      },
-    ],
-  },
-  {
-    id: 4,
-    img: Work1,
-    title: "Website Design",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "BVADI",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-        link: "http://localhost:3000/",
-      },
-    ],
-  },
-  {
-    id: 3,
-    img: Work1,
-    title: "Website Design",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "BVADI",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-        link: "http://localhost:3000/",
-      },
-    ],
-  },
-  {
-    id: 2,
-    img: Work1,
-    title: "Website Design",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "BVADI",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-        link: "http://localhost:3000/",
-      },
-    ],
-  },
-  {
     id: 1,
     img: Work1,
     title: "Website Design",
@@ -373,8 +233,8 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
-        link: "http://localhost:3000/",
+        desc: "bulut-bvadi.com",
+        link: "https://bulut-bvadi.vercel.app/",
       },
     ],
   },

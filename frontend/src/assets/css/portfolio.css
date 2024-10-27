@@ -11,6 +11,7 @@
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  border: 1px solid var(--border-color);
 }
 
 .portfolio-img {
