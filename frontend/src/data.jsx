@@ -10,6 +10,7 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
 import Work1 from "./assets/uploads/project-1.jpg";
+
 import Theme1 from "./assets/uploads/purple.png";
 import Theme2 from "./assets/uploads/red.png";
 import Theme3 from "./assets/uploads/blueviolet.png";
