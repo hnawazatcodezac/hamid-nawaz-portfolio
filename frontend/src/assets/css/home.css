@@ -46,7 +46,7 @@
   margin-block: 16px 32px;
 }
 
-.color-block {
+.home-background-color {
   position: fixed;
   height: 200%;
   width: 100%;
@@ -85,7 +85,7 @@
 }
 
 @media (max-width: 610px) {
-  .color-block {
+  .home-background-color {
     top: -15%;
   }
 }
@@ -95,7 +95,7 @@
     line-height: 1.5;
   }
 
-  .color-block {
+  .home-background-color {
     top: -45%;
   }
 }

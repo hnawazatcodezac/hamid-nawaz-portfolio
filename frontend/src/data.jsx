@@ -91,7 +91,7 @@ export const personalInfo = [
 
   {
     id: 7,
-    title: "Phone : ",
+    title: "Watsapp : ",
     description: "+923145046367",
   },
 
@@ -108,96 +108,105 @@ export const personalInfo = [
   },
 ];
 
-export const stats = [
-  {
-    id: 1,
-    no: "12+",
-    title: "Years of <br /> Experience",
-  },
-
-  {
-    id: 2,
-    no: "97+",
-    title: "Completed <br /> Projects",
-  },
-
-  {
-    id: 3,
-    no: "81+",
-    title: "Happy <br /> Customers",
-  },
-
-  {
-    id: 4,
-    no: "53+",
-    title: " Awards <br /> Won",
-  },
-];
-
 export const resume = [
   {
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2023 - PRESENT",
-    title: "Web Developer <span> Envato </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    title: "Full Stack Developer <span> Codezac </span>",
+    desc: "Full Stack Developer with a strong command of HTML, CSS, JavaScript, and expertise across frameworks like Next.js, React, Node.js, and Bootstrap. Skilled in building real-time applications with Socket.io and proficient in database solutions such as DynamoDB, PostgreSQL, and MySQL. Spearheaded responsive, high-performing web applications that enhance user experience and optimize performance, collaborating closely with cross-functional teams to deliver impactful solutions.",
   },
 
   {
-    id: 4,
+    id: 2,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "2018-2020",
+    title: "Matriculation <span> Hira Secondary School </span>",
+    desc: "Built a solid academic foundation with a focus on essential subjects such as Mathematics and Sciences. Demonstrated strong academic performance and active participation in school projects.",
+  },
+
+  {
+    id: 3,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2020-2022",
     title: "Intermediate <span> Fauji Foundation College </span>",
     desc: "Completed Intermediate with a focus on science subjects.",
   },
-
-  {
-    id: 5,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2018-2020",
-    title: "Matriculation <span> Hira Secondary School </span>",
-    desc: "Successfully completed Matriculation with a strong foundation in core subjects.",
-  },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: "Html",
+    title: "HTML",
     percentage: "90",
   },
 
   {
     id: 2,
-    title: "Javascript",
+    title: "JavaScript",
     percentage: "85",
   },
 
   {
     id: 3,
-    title: "Css",
+    title: "CSS",
     percentage: "90",
   },
 
   {
     id: 4,
-    title: "Php",
+    title: "PHP",
     percentage: "60",
   },
 
   {
     id: 5,
-    title: "Wordpress",
-    percentage: "50",
+    title: "WordPress",
+    percentage: "60",
   },
 
   {
+    id: 6,
+    title: "Bootstrap",
+    percentage: "90",
+  },
+  {
+    id: 7,
+    title: "Next.js",
+    percentage: "60",
+  },
+  {
     id: 8,
     title: "React",
-    percentage: "80",
+    percentage: "85",
+  },
+  {
+    id: 9,
+    title: "Node.js",
+    percentage: "90",
+  },
+  {
+    id: 10,
+    title: "Socket.io",
+    percentage: "65",
+  },
+  {
+    id: 11,
+    title: "DynamoDB",
+    percentage: "85",
+  },
+  {
+    id: 12,
+    title: "PostgreSQL",
+    percentage: "90",
+  },
+  {
+    id: 13,
+    title: "MySQL",
+    percentage: "90",
   },
 ];
 

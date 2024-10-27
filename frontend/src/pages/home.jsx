@@ -31,7 +31,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="color-block"></div>
+      <div className="home-background-color"></div>
     </section>
   );
 };
