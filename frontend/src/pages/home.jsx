@@ -17,9 +17,9 @@ const Home = () => {
           </h1>
 
           <p className="home-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            incidunt suscipit earum voluptates vel facere sunt laudantium error
-            soluta nemo?
+            A Full-Stack Developer with extensive expertise in HTML, CSS,
+            JavaScript, React.js, Node.js, Express.js, and MongoDB. With a
+            passion for crafting exceptional web experiences.
           </p>
 
           <Link to="/about" className="button">
