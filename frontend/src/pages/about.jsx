@@ -31,7 +31,7 @@ const About = () => {
         </div>
       </section>
 
-      <div className="seprator"></div>
+      <div className="separator"></div>
 
       <div className="skills">
         <h3 className="section-subtitle subtitle-center">My Skills</h3>
@@ -40,7 +40,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="seprator"></div>
+      <div className="separator"></div>
 
       <section className="resume">
         <h3 className="section-subtitle subtitle-center">Education</h3>
@@ -53,7 +53,7 @@ const About = () => {
         </div>
       </section>
 
-      <div className="seprator"></div>
+      <div className="separator"></div>
 
       <section className="resume">
         <h3 className="section-subtitle subtitle-center">Experience</h3>

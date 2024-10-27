@@ -90,7 +90,7 @@ export const personalInfo = [
 
   {
     id: 7,
-    title: "Watsapp : ",
+    title: "WhatsApp : ",
     description: "+923145046367",
   },
 
@@ -102,7 +102,7 @@ export const personalInfo = [
 
   {
     id: 10,
-    title: "Langages : ",
+    title: "Languages : ",
     description: "Urdu, English, Punjabi",
   },
 ];

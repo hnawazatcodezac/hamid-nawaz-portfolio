@@ -20,12 +20,12 @@
   font-size: var(--small-font-size);
 }
 
-.info-list .info-decription {
+.info-list .info-description {
   color: var(--title-color);
   font-weight: var(--weight-600);
 }
 
-.seprator {
+.separator {
   border-top: 1px solid var(--border-color);
   max-width: 40%;
   margin: 72px auto 56px;
@@ -161,7 +161,7 @@
 
 @media (max-width: 450px) {
   .info-list .info-title,
-  .info-list .info-decription {
+  .info-list .info-description {
     font-size: 18px;
   }
 
@@ -173,7 +173,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .seprator {
+  .separator {
     max-width: 80%;
   }
 
@@ -192,7 +192,7 @@
 
 @media (max-width: 380px) {
   .info-list .info-title,
-  .info-list .info-decription {
+  .info-list .info-description {
     font-size: 14px;
   }
 }

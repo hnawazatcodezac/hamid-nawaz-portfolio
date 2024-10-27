@@ -8,7 +8,7 @@ const Info = () => {
         return (
           <li className="info-item" key={index}>
             <span className="info-title">{title}</span>
-            <span className="info-decription">{description}</span>
+            <span className="info-description">{description}</span>
           </li>
         );
       })}
