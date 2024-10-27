@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/uploads/project-1.jpeg";
+import Work1 from "./assets/uploads/project-1.jpg";
 
 import Theme1 from "./assets/uploads/purple.png";
 import Theme2 from "./assets/uploads/red.png";
@@ -212,6 +212,146 @@ export const skills = [
 
 export const portfolio = [
   {
+    id: 6,
+    img: Work1,
+    title: "Website Design",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "BVADI",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "www.dribble.com",
+        link: "http://localhost:3000/",
+      },
+    ],
+  },
+  {
+    id: 5,
+    img: Work1,
+    title: "Website Design",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "BVADI",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "www.dribble.com",
+        link: "http://localhost:3000/",
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: Work1,
+    title: "Website Design",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "BVADI",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "www.dribble.com",
+        link: "http://localhost:3000/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    img: Work1,
+    title: "Website Design",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "BVADI",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "www.dribble.com",
+        link: "http://localhost:3000/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: Work1,
+    title: "Website Design",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "BVADI",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "www.dribble.com",
+        link: "http://localhost:3000/",
+      },
+    ],
+  },
+  {
     id: 1,
     img: Work1,
     title: "Website Design",
@@ -224,7 +364,7 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "BVADI",
       },
       {
         icon: <FaCode />,
@@ -235,6 +375,7 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "www.dribble.com",
+        link: "http://localhost:3000/",
       },
     ],
   },
