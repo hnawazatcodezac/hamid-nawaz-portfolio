@@ -8,7 +8,12 @@ import Profile from "../assets/uploads/profile-pic.jpg";
 const Home = () => {
   return (
     <section className="home section grid">
-      <img src={Profile} alt="profile image" className="home-img" />
+      <img
+        loading="lazy"
+        src={Profile}
+        alt="profile image"
+        className="home-img"
+      />
 
       <div className="home-content">
         <div className="home-data">
