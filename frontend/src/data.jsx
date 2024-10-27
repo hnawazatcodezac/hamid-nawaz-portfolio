@@ -106,7 +106,6 @@ export const personalInfo = [
     description: "Urdu, English, Punjabi",
   },
 ];
-
 export const resume = [
   {
     id: 1,
