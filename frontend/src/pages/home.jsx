@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import "../assets/css/home.css";
 
-import Profile from "../assets/uploads/profile-pic.jpg";
+import Profile from "../assets/uploads/profile-pic.png";
 
 const Home = () => {
   return (
