@@ -34,30 +34,10 @@
 }
 
 .contact-info .info-description {
+  display: block;
   font-family: var(--body-font);
   font-size: var(--small-font-size);
   font-weight: var(--weight-500);
-}
-
-.contact-social {
-  display: flex;
-  column-gap: 16px;
-}
-
-.contact-social-link {
-  background-color: var(--container-color);
-  color: var(--title-color);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 44px;
-  transition: all 0.3s ease;
-}
-
-.contact-social-link:hover {
-  background-color: var(--first-color);
-  color: var(--text-white);
 }
 
 .form-input-group {
@@ -114,22 +94,9 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .contact-data .contact-social,
-  .contact-data .contact-info {
-    display: none;
-  }
-
-  .contact-info-div {
-    display: block;
-  }
-
   .contact-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .contact-social {
-    justify-content: center;
   }
 }
 

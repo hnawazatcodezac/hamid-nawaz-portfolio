@@ -43,19 +43,6 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="resume">
-        <h3 className="section-subtitle subtitle-center">Education</h3>
-        <div className="resume-container grid">
-          {resume.map((val) => {
-            if (val.category === "education") {
-              return <ResumeItem key={val.id} {...val} />;
-            }
-          })}
-        </div>
-      </section>
-
-      <div className="separator"></div>
-
-      <section className="resume">
         <h3 className="section-subtitle subtitle-center">Experience</h3>
         <div className="resume-container grid">
           {resume.map((val) => {

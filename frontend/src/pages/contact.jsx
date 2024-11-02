@@ -5,6 +5,7 @@ import {
   FaDribbble,
   FaEnvelopeOpen,
   FaFacebookF,
+  FaLinkedin,
   FaPhoneSquareAlt,
   FaTwitter,
   FaYoutube,
@@ -154,21 +155,20 @@ const Contact = () => {
                   <h4 className="info-description">+92 314 5046367</h4>
                 </div>
               </div>
-            </div>
+              <div className="info-item">
+                <FaLinkedin className="info-icon" />
 
-            <div className="contact-social">
-              <a href="https://facebook.com" className="contact-social-link">
-                <FaFacebookF />
-              </a>
-              <a href="https://twitter.com" className="contact-social-link">
-                <FaTwitter />
-              </a>
-              <a href="https://youtube.com" className="contact-social-link">
-                <FaYoutube />
-              </a>
-              <a href="https://dribble.com" className="contact-social-link">
-                <FaDribbble />
-              </a>
+                <div>
+                  <span className="info-title">LinkedIn</span>
+                  <a
+                    href="https://www.linkedin.com/in/hamidnawaz3"
+                    target="_blank"
+                    className="info-description"
+                  >
+                    go to profile
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -304,42 +304,6 @@ const Contact = () => {
               </Form>
             )}
           </Formik>
-
-          <div className="contact-info-div">
-            <div className="contact-info">
-              <div className="info-item">
-                <FaEnvelopeOpen className="info-icon" />
-
-                <div>
-                  <span className="info-title">Mail me</span>
-                  <h4 className="info-description">hkmnoon787@gmail.com</h4>
-                </div>
-              </div>
-              <div className="info-item">
-                <FaPhoneSquareAlt className="info-icon" />
-
-                <div>
-                  <span className="info-title">Watsapp me</span>
-                  <h4 className="info-description">+92 314 5046367</h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="contact-social">
-              <a href="https://facebook.com" className="contact-social-link">
-                <FaFacebookF />
-              </a>
-              <a href="https://twitter.com" className="contact-social-link">
-                <FaTwitter />
-              </a>
-              <a href="https://youtube.com" className="contact-social-link">
-                <FaYoutube />
-              </a>
-              <a href="https://dribble.com" className="contact-social-link">
-                <FaDribbble />
-              </a>
-            </div>
-          </div>
         </div>
       </section>
     </>

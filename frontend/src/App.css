@@ -2,7 +2,7 @@
 
 :root {
   /* ============== Colors =============== */
-  --first-color: #8a2ce2;
+  --first-color: #6c28ac;
   --title-color: #666666;
   --text-color: #808080;
   --body-color: #ffffff;
@@ -32,10 +32,24 @@
   --weight-800: 800;
 }
 
+.dark-theme {
+  --title-color: #ffffff;
+  --text-color: #cccccc;
+  --body-color: #121212;
+  --container-color: #2c2b2b;
+  --border-color: #262626;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: background 0.3s ease;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 body,

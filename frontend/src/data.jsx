@@ -115,24 +115,6 @@ export const resume = [
     title: "Full Stack Developer <span> Codezac </span>",
     desc: "Full Stack Developer with a strong command of HTML, CSS, JavaScript, and expertise across frameworks like Next.js, React, Node.js, and Bootstrap. Skilled in building real-time applications with Socket.io and proficient in database solutions such as DynamoDB, PostgreSQL, and MySQL. Spearheaded responsive, high-performing web applications that enhance user experience and optimize performance, collaborating closely with cross-functional teams to deliver impactful solutions.",
   },
-
-  {
-    id: 2,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2018-2020",
-    title: "Matriculation <span> Hira Secondary School </span>",
-    desc: "Built a solid academic foundation with a focus on essential subjects such as Mathematics and Sciences. Demonstrated strong academic performance and active participation in school projects.",
-  },
-
-  {
-    id: 3,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2020-2022",
-    title: "Intermediate <span> Fauji Foundation College </span>",
-    desc: "Completed Intermediate with a focus on science subjects.",
-  },
 ];
 
 export const skills = [
