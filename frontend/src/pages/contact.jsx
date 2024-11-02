@@ -1,16 +1,10 @@
 import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import {
-  FaDribbble,
-  FaEnvelopeOpen,
-  FaFacebookF,
-  FaLinkedin,
-  FaPhoneSquareAlt,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaEnvelopeOpen, FaLinkedin, FaPhoneSquareAlt } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
+import Navbar from "../components/navbar";
+import Themes from "../components/themes";
 import "../assets/css/contact.css";
 const serverBaseUrl = import.meta.env.VITE_BACKEND_SERVER_URL;
 
@@ -122,6 +116,8 @@ const Contact = () => {
       {alert?.success && (
         <div className="success form-error">{alert.success}</div>
       )}
+      <Navbar />
+      <Themes />
       {alert?.error && <div className="error form-error">{alert.error}</div>}
       <section className="contact section">
         <h2 className="section-title">
