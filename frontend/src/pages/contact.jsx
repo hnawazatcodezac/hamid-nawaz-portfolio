@@ -159,7 +159,7 @@ const Contact = () => {
                   <a
                     href="https://www.linkedin.com/in/hamidnawaz3"
                     target="_blank"
-                    className="info-description"
+                    className="info-description profile-link"
                   >
                     go to profile
                   </a>
